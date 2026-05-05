@@ -36,15 +36,13 @@ Quando Eclipse compila il progetto, inserisce il file eseguibile generato in una
 
 1. Apri il Terminale (macOS/Linux) o il Prompt dei comandi/PowerShell (Windows).
 2. Spostati nella cartella di compilazione del tuo progetto Eclipse usando il comando `cd`. Ad esempio:
-   bash
    cd percorso/del/tuo/workspace/NomeProgetto/Debug
 3. eseguire il comando .\NomeProgetto.exe
    
 ### Opzione C: Compilazione Manuale (Opzione universale)
 Se non utilizzi un IDE, puoi compilare il progetto da terminale spostandoti nella cartella principale e digitando:
 
-1. bash
-   g++ src/main.cpp src/sqlite3.c -o NomeProgetto
+1. g++ src/main.cpp src/sqlite3.c -o NomeProgetto
 
 
 ## Visualizzazione e Controllo del Database (Opzionale)
