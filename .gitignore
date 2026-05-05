@@ -1,0 +1,17 @@
+# File compilati ed eseguibili
+*.exe
+*.o
+*.d
+*.a
+
+# Cartelle di compilazione di Eclipse
+Debug/
+Release/
+
+# File di database locale
+*.db
+
+# File di configurazione specifici di Eclipse (opzionale ma consigliato)
+.cproject
+.project
+.settings/
